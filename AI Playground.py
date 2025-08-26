@@ -22,13 +22,13 @@ PURPLE = (160, 32, 240)
 
 # Player settings
 player_size = 50
-player_speed = 5
+player_speed = 7
 max_health = 5
 
 # Enemy settings
 enemy_size = 40
-enemy_speed = 2
-spawn_delay = 500  # spawn every 500 milliseconds
+enemy_speed = 7
+spawn_delay = 50  # spawn every 500 milliseconds
 
 # Bullet settings
 bullet_speed = 10
@@ -49,7 +49,7 @@ class Player:
     def __init__(self):
         self.rect = pygame.Rect(WIDTH // 2, HEIGHT // 2, player_size, player_size)
         self.speed = player_speed
-        self.health = 3
+        self.health = 100
         self.last_shot = 0  # time since last bullet fired
         self.fire_delay = normal_fire_delay
         self.rapid_fire_end_time = 0
