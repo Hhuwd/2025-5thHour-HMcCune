@@ -26,8 +26,8 @@ player_speed = 7
 max_health = 5
 
 # Enemy settings
-enemy_size = 40
-enemy_speed = 7
+enemy_size = 50
+enemy_speed = 2
 spawn_delay = 50  # spawn every 500 milliseconds
 
 # Bullet settings
@@ -35,7 +35,7 @@ bullet_speed = 10
 bullet_size = 5
 normal_fire_delay = 400  # milliseconds between shots
 
-# Power-up settings
+# Power-up settingsd
 powerup_size = 30
 powerup_spawn_delay = 10000  # spawn every 10 seconds
 powerup_duration = 5000  # 5 seconds for rapid fire
