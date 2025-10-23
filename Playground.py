@@ -4,7 +4,7 @@
 #actually here for an assignment this time
 
 
-
+import sys
 import random
 d1 = random.randint(1,100)
 d2 = random.randint(1,100)
@@ -39,8 +39,7 @@ list.pop(0)
 list.pop(8)
 print (list)
 input ("Begin round 2?")
-if input = "yes":
-    print ("ROUND TWO OF THE SHUFFLER!")
+print ("ROUND TWO OF THE SHUFFLER!")
 random.shuffle(list)
 print (list)
 print ("If your number is at the front or end, you are OUT!")
