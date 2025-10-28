@@ -27,8 +27,8 @@ max_health = 5
 
 # Enemy settings
 enemy_size = 50
-enemy_speed = 10
-spawn_delay = 50  # spawn every 500 milliseconds
+enemy_speed = 2
+spawn_delay = 250  # spawn every 500 milliseconds
 
 # Bullet settings
 bullet_speed = 10
