@@ -3,7 +3,7 @@
 #Assignment: Playground
 #actually here for an assignment this time
 
-
+import time
 import sys
 import random
 d1 = random.randint(1,100)
@@ -17,26 +17,43 @@ d8 = random.randint(1,100)
 d9 = random.randint(1,100)
 list = [d1,d2,d3,d4,d5,d6,d7,d8,d9]
 print ("###########################")
+time.sleep(0.1)
 print (" ######################### ")
+time.sleep(0.1)
 print ("   #####################   ")
+time.sleep(.1)
 print ("    ###################    ")
+time.sleep(.1)
 print ("     #################     ")
+time.sleep(.1)
 print ("      ###############      ")
+time.sleep(.1)
 print ("       #############       ")
+time.sleep(.1)
 print ("        ###########        ")
+time.sleep(.1)
 print ("         #########         ")
+time.sleep(.1)
 print ("          #######          ")
+time.sleep(.1)
 print ("           #####           ")
+time.sleep(.1)
 print ("            ###            ")
+time.sleep(.1)
 print ("             #             ")
+time.sleep(0.5)
 print ("HELLO! WELCOME TO ROULETTE!")
+time.sleep(0.5)
 y = input("Please insert anything to begin roulette!")
 list.append(y)
 random.shuffle(list)
+time.sleep(0.5)
 print (list)
+time.sleep(0.5)
 print ("If your number is at the front or end, you are OUT!")
 list.pop(0)
 list.pop(8)
+time.sleep(0.5)
 print (list)
 x = input("Begin round 2?")
 if x == "no" or x == "No":
@@ -44,10 +61,12 @@ if x == "no" or x == "No":
 else:
     print ("ROUND TWO OF THE SHUFFLER!")
     random.shuffle(list)
+    time.sleep(0.5)
     print (list)
     print ("If your number is at the front or end, you are OUT!")
     list.pop(0)
     list.pop(6)
+    time.sleep(0.5)
     print (list)
     x = input("Begin round 3?")
     if x == "no" or x == "No":
@@ -59,6 +78,7 @@ else:
         print ("If your number is at the front or end, you are OUT!")
         list.pop(0)
         list.pop(4)
+        time.sleep(0.5)
         print (list)
         x = input("Begin round 4?")
         if x == "no" or x == "No":
@@ -70,6 +90,7 @@ else:
             print ("If your number is at the front or end, you are OUT!")
             list.pop(3)
             list.pop(0)
+            time.sleep(0.5)
             print (list)
             x = input("Begin round 5?")
             if x == "no" or x == "No":
@@ -77,6 +98,7 @@ else:
             else:
                 print ("Now, THE FINALE!!! ONLY THE FIRST NUMBER WILL BE ELIMINATED!")
                 random.shuffle(list)
+                time.sleep(0.5)
                 print (list)
                 print ("If your number is at the front, you got second place!")
                 list.pop(0)
