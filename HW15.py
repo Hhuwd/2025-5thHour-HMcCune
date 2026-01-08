@@ -46,3 +46,11 @@ for i2 in range(1,101 + 1):
     if i2 % 10 == 0:
         break
 #14. Free space. Do something creative. :)
+x = input("Would you like to begin pain?")
+if x == "no":
+    print("Goodbye!")
+else:
+    x = random.randint(1,10000)
+    while x:
+        print(x)
+        x = random.randint(1, 10000)
