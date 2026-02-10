@@ -20,10 +20,7 @@ def loop(inpu):
     for i in range(1,inpu + 1):
         print(i)
 #5. Call all of the functions created in 1 - 4 with relevant arguments.
-yes()
-amogus(2,3,4)
-ma("Penguin","Bird","Dog","Cat","Elephant")
-loop(15)
+
 #6. Create a variable x that has the value of 2. Print x
 x = 2
 print(x)
